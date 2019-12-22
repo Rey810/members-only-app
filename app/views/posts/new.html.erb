@@ -1,0 +1,11 @@
+<%= form_for :post, url: posts_path do |f| %>
+
+    <%= f.label :Title %>
+    <%= f.text_field :header %>
+
+    <%= f.label :Body %>
+    <%= f.text_area :content %>
+
+    <%= f.submit "Post your story" %>
+
+<% end %>
